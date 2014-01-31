@@ -1,6 +1,6 @@
 {
   "name": "grunt-hashfilter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Filter a list of files by previously seen files; based on hash",
   "main": "tasks/hashfilter.js",
   "dependencies": {
