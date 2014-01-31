@@ -1,18 +1,29 @@
 {
   "name": "grunt-hashfilter",
   "version": "0.0.1",
+  "description": "Filter a list of files by previously seen files; based on hash",
   "main": "tasks/hashfilter.js",
   "dependencies": {
     "grunt": "~0.4.2",
     "lodash": "~2.4.1",
     "crypto": "0.0.3"
   },
+  "homepage": "https://github.com/geedew/grunt-hashfilter/",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/geedew/grunt-hashfilter/blob/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geedew/grunt-hashfilter.git"
+  },
   "bin": {
-    "hashfilter": "bin"
+    "hashfilter": "tasks/hashfilter.js"
   },
   "author": "Drew Wilson",
   "license": "Copyright 2013 geedew <drew@geedew.com>",
-  "description": "Filter a list of files by previously seen files; based on hash",
   "devDependencies": {
     "mocha": "~1.17.1"
   }
